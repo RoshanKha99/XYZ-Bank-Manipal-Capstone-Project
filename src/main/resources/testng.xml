@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XYZ Bank Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="XYZ Bank Test">
+		<classes>
+			<class name="com.xcp.qa.testcases.Homepage_test"></class>
+			<class name="com.xcp.qa.testcases.BML_AddCutomer_test"></class>
+			<class name="com.xcp.qa.testcases.BML_AddCutomerinvalid_test"></class>
+			<class name="com.xcp.qa.testcases.BML_OpenAC_test"></class>
+			<class name="com.xcp.qa.testcases.BML_Customers_test"></class>
+			<class name="com.xcp.qa.testcases.CL_customerdetails_test"></class>
+			<class name="com.xcp.qa.testcases.CL_deposit_test"></class>
+			<class name="com.xcp.qa.testcases.CL_Withdrawl_test"></class>
+			<class name="com.xcp.qa.testcases.CL_transactions_test"></class>
+			
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T22:50:31 IST" name="XYZ Bank Application Test Automation Test Suite" finished-at="2024-03-07T22:52:13 IST" duration-ms="102071">
+    <groups>
+    </groups>
+    <test started-at="2024-03-07T22:50:31 IST" name="XYZ Bank Test" finished-at="2024-03-07T22:52:13 IST" duration-ms="102071">
+      <class name="com.xcp.qa.testcases.CL_customerdetails_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.CL_customerdetails_test@37271612]" started-at="2024-03-07T22:51:12 IST" name="setUp" finished-at="2024-03-07T22:51:17 IST" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CustomerDetails()[pri:0, instance:com.xcp.qa.testcases.CL_customerdetails_test@37271612]" started-at="2024-03-07T22:51:17 IST" name="CustomerDetails" finished-at="2024-03-07T22:51:24 IST" duration-ms="6737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerDetails -->
+      </class> <!-- com.xcp.qa.testcases.CL_customerdetails_test -->
+      <class name="com.xcp.qa.testcases.CL_transactions_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.CL_transactions_test@38102d01]" started-at="2024-03-07T22:51:56 IST" name="setUp" finished-at="2024-03-07T22:51:59 IST" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Deposit_test()[pri:0, instance:com.xcp.qa.testcases.CL_transactions_test@38102d01]" started-at="2024-03-07T22:51:59 IST" name="Deposit_test" finished-at="2024-03-07T22:52:13 IST" duration-ms="14668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deposit_test -->
+      </class> <!-- com.xcp.qa.testcases.CL_transactions_test -->
+      <class name="com.xcp.qa.testcases.BML_OpenAC_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.BML_OpenAC_test@1757cd72]" started-at="2024-03-07T22:50:47 IST" name="setUp" finished-at="2024-03-07T22:50:49 IST" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OpenAccountCustomerTest()[pri:0, instance:com.xcp.qa.testcases.BML_OpenAC_test@1757cd72]" started-at="2024-03-07T22:50:49 IST" name="OpenAccountCustomerTest" finished-at="2024-03-07T22:50:55 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountCustomerTest -->
+      </class> <!-- com.xcp.qa.testcases.BML_OpenAC_test -->
+      <class name="com.xcp.qa.testcases.BML_Customers_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.BML_Customers_test@c86b9e3]" started-at="2024-03-07T22:50:55 IST" name="setUp" finished-at="2024-03-07T22:50:58 IST" duration-ms="3791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OpenAccountCustomerTest()[pri:0, instance:com.xcp.qa.testcases.BML_Customers_test@c86b9e3]" started-at="2024-03-07T22:50:58 IST" name="OpenAccountCustomerTest" finished-at="2024-03-07T22:51:12 IST" duration-ms="13817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountCustomerTest -->
+      </class> <!-- com.xcp.qa.testcases.BML_Customers_test -->
+      <class name="com.xcp.qa.testcases.BML_AddCutomerinvalid_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.BML_AddCutomerinvalid_test@2d3379b4]" started-at="2024-03-07T22:50:42 IST" name="setUp" finished-at="2024-03-07T22:50:45 IST" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddCustomerFunctionality()[pri:0, instance:com.xcp.qa.testcases.BML_AddCutomerinvalid_test@2d3379b4]" started-at="2024-03-07T22:50:45 IST" name="verifyAddCustomerFunctionality" finished-at="2024-03-07T22:50:47 IST" duration-ms="1952" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message is not displayed for invalid data expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message is not displayed for invalid data expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.xcp.qa.testcases.BML_AddCutomerinvalid_test.verifyAddCustomerFunctionality(BML_AddCutomerinvalid_test.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCustomerFunctionality -->
+      </class> <!-- com.xcp.qa.testcases.BML_AddCutomerinvalid_test -->
+      <class name="com.xcp.qa.testcases.CL_deposit_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.CL_deposit_test@ed7f8b4]" started-at="2024-03-07T22:51:24 IST" name="setUp" finished-at="2024-03-07T22:51:30 IST" duration-ms="5649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Deposit_test()[pri:0, instance:com.xcp.qa.testcases.CL_deposit_test@ed7f8b4]" started-at="2024-03-07T22:51:30 IST" name="Deposit_test" finished-at="2024-03-07T22:51:42 IST" duration-ms="12167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deposit_test -->
+      </class> <!-- com.xcp.qa.testcases.CL_deposit_test -->
+      <class name="com.xcp.qa.testcases.Homepage_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.Homepage_test@799f10e1]" started-at="2024-03-07T22:50:31 IST" name="setUp" finished-at="2024-03-07T22:50:35 IST" duration-ms="3716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Homepagefun()[pri:0, instance:com.xcp.qa.testcases.Homepage_test@799f10e1]" started-at="2024-03-07T22:50:35 IST" name="Homepagefun" finished-at="2024-03-07T22:50:37 IST" duration-ms="1677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepagefun -->
+      </class> <!-- com.xcp.qa.testcases.Homepage_test -->
+      <class name="com.xcp.qa.testcases.CL_Withdrawl_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.CL_Withdrawl_test@4c309d4d]" started-at="2024-03-07T22:51:42 IST" name="setUp" finished-at="2024-03-07T22:51:45 IST" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Deposit_test()[pri:0, instance:com.xcp.qa.testcases.CL_Withdrawl_test@4c309d4d]" started-at="2024-03-07T22:51:45 IST" name="Deposit_test" finished-at="2024-03-07T22:51:56 IST" duration-ms="10716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deposit_test -->
+      </class> <!-- com.xcp.qa.testcases.CL_Withdrawl_test -->
+      <class name="com.xcp.qa.testcases.BML_AddCutomer_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xcp.qa.testcases.BML_AddCutomer_test@618b19ad]" started-at="2024-03-07T22:50:37 IST" name="setUp" finished-at="2024-03-07T22:50:40 IST" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddCustomerFunctionality()[pri:0, instance:com.xcp.qa.testcases.BML_AddCutomer_test@618b19ad]" started-at="2024-03-07T22:50:40 IST" name="verifyAddCustomerFunctionality" finished-at="2024-03-07T22:50:42 IST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCustomerFunctionality -->
+      </class> <!-- com.xcp.qa.testcases.BML_AddCutomer_test -->
+    </test> <!-- XYZ Bank Test -->
+  </suite> <!-- XYZ Bank Application Test Automation Test Suite -->
+</testng-results>
